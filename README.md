@@ -1,0 +1,6 @@
+# crawlspider
+使用crawlspider爬取微信小程序社区
+1.allow设置规则的方法,要能够限制在我们想要的url上面。不要跟其他的url产生相同的正则表达式即可
+2.什么情况下使用follow,如果爬取页面的时候，需要满足当前条件的url再进行跟进，那么就设置True,否则就设置为False
+3.什么情况下该指定callback,如果这个url对应的页面，只是为了获取更多的url，并不需要里面的数据，
+那么可以不指定callback,如果想要获取url对应中的数据，那么就需要指定一个callback
